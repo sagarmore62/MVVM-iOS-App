@@ -35,6 +35,9 @@ class HomeViewController: UIViewController {
         if isFavourite {
             //favourite screen will update it's data every time on view appear
             viewModel.getMovies(isFavourite)
+        } else {
+            //to get updated wishlist product status
+            collectionView.reloadData()
         }
     }
     
