@@ -27,7 +27,3 @@ Code is compiled on Xcode 10.1 with Swift 4.2 language.
 - For image caching, getImageWith() method is used which defined in UIImageView Extension.
 - Downloaded images are stored in NSCache, and retrieved from same if exist.
 - On low memory warning from iPhone OS, NSCache automatically removes the data from it. 
-
-## TO DO :
-- There is scope to enhance the app by storing the favourites object in DB instead of Singletone.
-- Searching functionality can be improved, throttling or debounce the text change event.
